@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+		<meta charset= "UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="bootstrap.css">
+		<script type="text/javascript" src="bootstrap.js"></script>
+		
+	<title>
+		Sign Up
+	</title>
+
+</head>
+
+<body style = "background-color:#d6eaff">
+<div class = "wrapper">
+
+<!--DESKTOP NAV-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html"><img id = "nav-logo" height = 30px width = 30px src = "images/King_Boomin_Crown_Blue.png" alt = "logo"></a>
+    </div>
+    <ul class="nav navbar-nav" >
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+	  <li><a href="#">Page 3</a></li>
+    </ul>
+	<ul class="nav navbar-nav navbar-right">
+      <li class = "active"><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li ><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+ </div>
+    
+</nav>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+
+<!--MOBILE NAV -->
+<ul class="topnav" id="myTopnav">
+  <li><a href="index.html">K!ng</a></li>
+  <li><a href="#news">Page 1</a></li>
+  <li><a href="#contact">Page 2</a></li>
+  <li><a href="#about">About</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
+</ul>
+<!--END MOBILE NAV-->
+<img id = "logo" src = "images/King_Boomin_Crown_Blue.png">
+
+<form name = "info" onsubmit="return passwordConfirm()" onsubmit = "return getName()" method="post" action="AccountInfo.html" >
+<fieldset>
+<legend>Sign Up For Your Account</legend>
+<br>
+ 
+	<input type = "name" id = "name" class = "forms" name = "name" required placeholder = "First name"><br>
+ <br>
+	<input type = "name" id = "lastname" class = "forms" name = "lastname" required placeholder = "Last name"><br>
+<br>
+	<input type = "email" id = "E-mail" class = "forms" name = "email" required placeholder = "Email"><br>
+<br>
+	<input type = "password" id = "pass1" class = "forms" name = "password" required placeholder = "password"><br>
+<br>
+	<input type = "password" id = "pass2" class = "forms" name = "confirmpassword" required placeholder = "confirm password"><br>
+<br>
+	<input type = "submit" id = "submit" class = "forms" value = "Sign Up">
+<br>
+<br>
+<br>
+<span class = "already">Already have an account?</span><br>
+<a href = "login.html">Log In</a>
+</fieldset>
+</form>
+
+
+</div>
+	
+
+</body>
+
+<footer class = "bottom">
+Copyright ©2016. All Rights Reserved.<br>
+Maurice R. Ligon II<br>
+mrligon22@gmail.com<br>
+
+</footer>
+
+
+</html>
