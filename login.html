@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+		<meta charset= "UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="bootstrap.css">
+		<script type="text/javascript" src="bootstrap.js"></script>
+		
+	<title>
+		Sign Up
+	</title>
+
+</head>
+
+<body style = "background-color:#d6eaff">
+<div class = "wrapper">
+
+<!--DESKTOP NAV-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html"><img height = 30px width = 30px src = "images/King_Boomin_Crown_Blue.png" alt = "logo"></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+	  <li><a href="#">Page 3</a></li>
+    </ul>
+	<ul class="nav navbar-nav navbar-right">
+      <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li class = "active"><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+ </div>
+    
+</nav>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+
+<!--MOBILE NAV -->
+<ul class="topnav" id = "myTopnav">
+  <li><a href="index.html">K!ng</a></li>
+  <li><a href="#news">Page 1</a></li>
+  <li><a href="#contact">Page 2</a></li>
+  <li><a href="#about">About</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
+</ul>
+<!--END MOBILE NAV-->
+
+<img id = "logo" src = "images/King_Boomin_Crown_Blue.png" alt = "logo">
+
+<form name = "login" onsubmit = "return noAccount()" method="post" action = "AccountInfo.html">
+<fieldset>
+<legend>Sign In To Your Account</legend>
+<p id = "notFound"></p>
+
+E-mail <br>
+	<input type = "email" id = "emaillogin" class = "forms" name = "emaillogin" required><br>
+<br>
+Password <br>
+	<input type = "password" id = "passwordlogin" class = "forms" name = "passwordlogin" required><br>
+<a href = "underconstructiton.html" class = "forgot"><p class = "forgot">Forgot your password?</p></a><br>
+	<input type = "submit" id = "submit" class = "forms" value = "Login">
+</fieldset>
+</form>
+
+<div id = "createaccount">
+<span class = "already">Want to become a member?</span><br>
+Create an account now to...
+<ul id = "create-list">
+	<li>Find cool stuff.</li>
+	<li>See cool stuff.</li>
+	<li>Buy cool stuff.</li>
+	<li>Sell cool stuff.</li>
+</ul>
+<a href = "signup.html"><input type = "button" id = "submit" class = "forms" value = "Sign Up Now"></a>
+</div>
+</div>
+
+
+</body>
+
+
+
+
+</html>
